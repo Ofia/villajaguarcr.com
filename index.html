@@ -125,21 +125,21 @@
         .swiper-button-next,
         .swiper-button-prev {
             color: white;
-            background-color: rgba(0, 0, 0, 0.5);
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+            background-color: transparent;
+            width: 40px;
+            height: 40px;
             transition: all 0.3s;
         }
 
         .swiper-button-next:hover,
         .swiper-button-prev:hover {
-            background-color: rgba(0, 0, 0, 0.8);
+            color: rgba(255, 255, 255, 0.7);
         }
 
         .swiper-button-next::after,
         .swiper-button-prev::after {
-            font-size: 20px;
+            font-size: 36px;
+            font-weight: 300;
         }
 
         .swiper-pagination {
@@ -327,7 +327,11 @@
             }
 
             .swiper {
-                height: 400px;
+                height: 500px;
+            }
+
+            .swiper-gallery-section {
+                padding: 60px 20px;
             }
 
             .welcome {
@@ -343,7 +347,7 @@
                 grid-template-columns: repeat(2, 1fr);
             }
 
-            .gallery-section, .swiper-gallery-section {
+            .gallery-section {
                 padding: 60px 40px;
             }
 
@@ -367,7 +371,16 @@
             }
 
             .swiper {
-                height: 300px;
+                height: 70vh;
+            }
+
+            .swiper-gallery-section {
+                padding: 40px 10px;
+            }
+
+            .swiper-gallery-section h2 {
+                font-size: 2rem;
+                margin-bottom: 30px;
             }
 
             .gallery {
@@ -394,10 +407,10 @@
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="Pictures/DSC08002.jpg" alt="Villa Jaguar">
+                        <img src="Pictures/First Image in swift.jpg" alt="Villa Jaguar">
                     </div>
                     <div class="swiper-slide">
-                        <img src="Pictures/DSC08072.jpg" alt="Villa Jaguar">
+                        <img src="Pictures/Add to galary.jpg" alt="Villa Jaguar">
                     </div>
                     <div class="swiper-slide">
                         <img src="Pictures/DSC08078.jpg" alt="Villa Jaguar">
@@ -407,6 +420,9 @@
                     </div>
                     <div class="swiper-slide">
                         <img src="Pictures/DSC08119.jpg" alt="Villa Jaguar">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Pictures/DSC08072.jpg" alt="Villa Jaguar">
                     </div>
                     <div class="swiper-slide">
                         <img src="Pictures/DSC08183-HDR.jpg" alt="Villa Jaguar">
@@ -452,6 +468,9 @@
                     </div>
                     <div class="swiper-slide">
                         <img src="Pictures/DSC09150.jpg" alt="Villa Jaguar">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Pictures/DSC08002.jpg" alt="Villa Jaguar">
                     </div>
                 </div>
                 <!-- Navigation arrows -->
@@ -506,7 +525,7 @@
             </div>
             <div class="contact-box">
                 <h3>Book via Airbnb</h3>
-                <a href="#" target="_blank">
+                <a href="https://www.airbnb.com/rooms/1591426208606618500?guests=1&adults=1&s=67&unique_share_id=392aedf0-a017-4d4b-a9d3-90f5b7952263" target="_blank">
                     <div class="airbnb-icon">
                         <img src="Images/airbnb-logo.png" alt="Airbnb">
                     </div>
